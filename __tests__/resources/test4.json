@@ -1,0 +1,95 @@
+{
+    "resource":"/{proxy+}",
+    "path":"/trait",
+    "httpMethod":"POST",
+    "headers":{
+       "Accept":"*/*",
+       "Accept-Encoding":"gzip,deflate",
+       "Content-Type":"application/json",
+       "Host":"event2segment.rtg-dev.com",
+       "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+       "X-Amzn-Trace-Id":"Root=1-634f241d-197541a95891e0ec0c092bdf",
+       "x-api-key":"LJdvkUprSi9aWXS6s41CAx6TGkePyXY25UCZlKve",
+       "X-Forwarded-For":"163.116.129.120",
+       "X-Forwarded-Port":"443",
+       "X-Forwarded-Proto":"https"
+    },
+    "multiValueHeaders":{
+       "Accept":[
+          "*/*"
+       ],
+       "Accept-Encoding":[
+          "gzip,deflate"
+       ],
+       "Content-Type":[
+          "application/json"
+       ],
+       "Host":[
+          "event2segment.rtg-dev.com"
+       ],
+       "User-Agent":[
+          "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+       ],
+       "X-Amzn-Trace-Id":[
+          "Root=1-634f241d-197541a95891e0ec0c092bdf"
+       ],
+       "x-api-key":[
+          "LJdvkUprSi9aWXS6s41CAx6TGkePyXY25UCZlKve"
+       ],
+       "X-Forwarded-For":[
+          "163.116.129.120"
+       ],
+       "X-Forwarded-Port":[
+          "443"
+       ],
+       "X-Forwarded-Proto":[
+          "https"
+       ]
+    },
+    "queryStringParameters":null,
+    "multiValueQueryStringParameters":null,
+    "pathParameters":{
+       "proxy":"anyPath"
+    },
+    "stageVariables":null,
+    "requestContext":{
+       "resourceId":"xco9lu",
+       "resourcePath":"/{proxy+}",
+       "httpMethod":"POST",
+       "extendedRequestId":"aOKUnGpAIAMF8lw=",
+       "requestTime":"18/Oct/2022:22:09:33 +0000",
+       "path":"/anyPath",
+       "accountId":"742127223731",
+       "protocol":"HTTP/1.1",
+       "stage":"dev",
+       "domainPrefix":"event2segment",
+       "requestTimeEpoch":1666130973353,
+       "requestId":"e0679e48-e325-4084-bd74-a3a1d85eb8d3",
+       "identity":{
+          "cognitoIdentityPoolId":null,
+          "cognitoIdentityId":null,
+          "apiKey":"LJdvkUprSi9aWXS6s41CAx6TGkePyXY25UCZlKve",
+          "principalOrgId":null,
+          "cognitoAuthenticationType":null,
+          "userArn":null,
+          "apiKeyId":"pvcsex6fmb",
+          "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+          "accountId":null,
+          "caller":null,
+          "sourceIp":"163.116.129.120",
+          "accessKey":null,
+          "cognitoAuthenticationProvider":null,
+          "user":null
+       },
+       "domainName":"event2segment.rtg-dev.com",
+       "apiId":"8wj8qev1f0"
+    },
+    "body":{
+        "segmentUserId": "123123-userid",
+        "trait": {
+            "creditDecisionCode": "PQ",
+            "creditDecision": "prequalifiedx"
+       }
+    },
+    "isBase64Encoded":false
+  }

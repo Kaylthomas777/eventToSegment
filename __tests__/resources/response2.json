@@ -1,0 +1,21 @@
+{
+    "batch":[
+       {
+          "type":"track",
+          "event":"Dispatch",
+          "anonymousId":"No Anonymous ID",
+          "properties":{
+             "info":"Stuff has been dispatched"
+          },
+          "source_system":"RTGMobileApp",
+          "timestamp":"2022-10-05T15:42:25.523Z"
+       }
+    ],
+    "context":{
+       "device":{
+          "type":"server",
+          "name":"RTGMobileApp"
+       }
+    },
+    "id":14
+ }

@@ -1,0 +1,22 @@
+{
+    "batch":[
+       {
+          "type":"track",
+          "userId":"123",
+          "event":"User Subscribed",
+          "anonymousId":"anonymousId",
+          "properties":{
+             "email":"test@example.com"
+          },
+          "source_system":"RTGWebsite",
+          "timestamp":"2022-10-05T15:42:25.492Z"
+       }
+    ],
+    "context":{
+       "device":{
+          "type":"server",
+          "name":"RTGWebsite"
+       }
+    },
+    "id":13
+ }

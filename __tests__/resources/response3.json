@@ -1,0 +1,22 @@
+{
+    "batch":[
+       {
+          "type":"track",
+          "event":"Cannot determine event type",
+          "anonymousId":"No Anonymous ID",
+          "properties":{
+             "someProperty":"Value of event not accounted for",
+             "userAgent":"No User Agent"
+          },
+          "source_system":"RTGMobileApp",
+          "timestamp":"2022-10-05T15:42:25.533Z"
+       }
+    ],
+    "context":{
+       "device":{
+          "type":"server",
+          "name":"RTGMobileApp"
+       }
+    },
+    "id":15
+ }
